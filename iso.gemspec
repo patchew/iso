@@ -55,7 +55,7 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<i18n>, [">= 0"])
       s.add_development_dependency(%q<rspec>, ["~> 2.8.0"])
-      s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
+      s.add_development_dependency(%q<rdoc>, "~> 6.3")
       s.add_development_dependency(%q<bundler>, ["~> 1.2.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_development_dependency(%q<guard-rspec>, [">= 0"])
@@ -63,7 +63,7 @@ Gem::Specification.new do |s|
     else
       s.add_dependency(%q<i18n>, [">= 0"])
       s.add_dependency(%q<rspec>, ["~> 2.8.0"])
-      s.add_dependency(%q<rdoc>, ["~> 3.12"])
+      s.add_dependency(%q<rdoc>, "~> 6.3")
       s.add_dependency(%q<bundler>, ["~> 1.2.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_dependency(%q<guard-rspec>, [">= 0"])
@@ -72,7 +72,7 @@ Gem::Specification.new do |s|
   else
     s.add_dependency(%q<i18n>, [">= 0"])
     s.add_dependency(%q<rspec>, ["~> 2.8.0"])
-    s.add_dependency(%q<rdoc>, ["~> 3.12"])
+    s.add_dependency(%q<rdoc>, "~> 6.3")
     s.add_dependency(%q<bundler>, ["~> 1.2.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
     s.add_dependency(%q<guard-rspec>, [">= 0"])
