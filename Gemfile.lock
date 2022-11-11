@@ -10,7 +10,7 @@ GEM
       thor (>= 0.14.6)
     guard-rspec (1.2.1)
       guard (>= 1.1)
-    i18n (0.6.1)
+    i18n (0.8.0)
     jeweler (1.8.4)
       bundler (~> 1.0)
       git (>= 1.2.5)
